@@ -1,0 +1,408 @@
+/* @media (max-width: 2000px){
+  #title{
+    text-align: center;
+  }
+} */
+
+h1{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  z-index: 1;
+  position: sticky;
+
+}
+
+h2{
+  font-family: 'Kanit', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
+body{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
+p{
+  color: #395B64;
+}
+
+#title{
+  background-color: #16213E;
+  color: white;
+  position: relative;
+  text-align: center;
+  /* height: 100%; */
+  /* padding-bottom: 37vh; */
+}
+
+
+#features{
+  padding: 7% 15%;
+  background-color: #E7F6F2;
+  position: relative;
+  z-index: 1;
+  color: navy;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #0F3460;
+  color: white;
+}
+
+#press{
+  background-color: #0F3460;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #E7F6F2;
+}
+
+#cta{
+  background-color: #0F3460;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+  width: 8vw;
+  height: 8vw;
+  opacity: 70%;
+
+  animation-name: cloud1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 700px;
+  bottom: 75px;
+  width: 7.5vw;
+  height: 7.5vw;
+  opacity: 75%;
+
+  animation-name: cloud2;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+.third-cloud{
+  position: absolute;
+  left: 500px;
+  bottom: 200px;
+  width: 6vw;
+  height: 6vw;
+  opacity: 80%;
+
+  animation-name: cloud3;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+.spaceship{
+  position: absolute;
+  right: 800px;
+  top: 200px;
+  width: 6vw;
+  height: 6vw;
+  opacity: 70%;
+  animation-name: spsh1;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+.spaceship2{
+  position: absolute;
+  /* left: 500px; */
+  left: 30%;
+  /* top: 300px; */
+  top: 65%;
+  width: 6.5vw;
+  height: 6.5vw;
+  opacity: 70%;
+  animation-name: spsh2;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+.star1{
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  width: 2vw;
+  height: 2vw;
+  opacity: 0%;
+
+  animation-name: staran1;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+}
+
+.star2{
+  position: absolute;
+  left: 140px;
+  bottom: 80px;
+  width: 2vw;
+  height: 2vw;
+  opacity: 0%;
+
+  animation-name: staran2;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes spsh1 {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(10deg);}
+  50%  {transform: rotate(0deg);}
+  75%  {transform: rotate(-10deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes spsh2 {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(-10deg);}
+  50%  {transform: rotate(0deg);}
+  75%  {transform: rotate(10deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes cloud1 {
+  0%   {width: 8vw; height: 8vw;}
+  50%  {width: 7vw; height: 7vw;}
+  100% {width: 8vw; height: 8vw;}
+}
+
+@keyframes cloud2 {
+  0%   {width: 7.5vw; height: 7.5vw;}
+  50%  {width: 10vw; height: 10vw;}
+  100% {width: 7.5vw; height: 7.5vw;}
+}
+
+@keyframes cloud3 {
+  0%   {width: 6vw; height: 6vw; opacity: 80%;}
+  50%  {width: 12vw; height: 12vw; opacity: 50%;}
+  100% {width: 6vw; height: 6vw; opacity: 80%;}
+}
+
+@keyframes staran1 {
+  0%   {opacity: 0%; width: 2vw; height: 2vw; right: 200px; top: 100px;}
+  50%  {opacity: 100%; width: 6vw; height: 6vw; right: 180px; top: 80px;}
+  100% {opacity: 0%; width: 2vw; height: 2vw; right: 200px; top: 100px;}
+}
+
+@keyframes staran2 {
+  0%   {opacity: 0%; width: 2vw; height: 2vw; left: 140px; bottom: 80px;}
+  50%  {opacity: 100%; width: 6vw; height: 6vw; left: 120px; bottom: 60px;}
+  100% {opacity: 0%; width: 2vw; height: 2vw; left: 140px; bottom: 80px;}
+}
+
+.nav-link{
+  color: purple;
+  font-weight: 700;
+  box-shadow: 1;
+}
+
+.dlbutton{
+  background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+background-color:#79bbff;
+border-radius:7px;
+border:1px solid #2c3333;
+/* display:inline-block; */
+position: relative;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:22px;
+font-weight:bold;
+padding:5px 25px;
+text-decoration:none;
+text-shadow:0px 1px 0px #528ecc;
+margin: 2vh 1vw;
+}
+.dlbutton:hover {
+background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+background-color:#378de5;
+}
+.dlbutton:active {
+position:relative;
+top:1px;
+}
+
+.card-header{
+  background-color: #16213E;
+  color: #E7F6F2;
+}
+
+.card-body{
+  background-color: #354E5E;
+  color: white;
+}
+
+.card-text2{
+  color: white;
+}
+
+.units{
+  width: 2vw;
+}
+
+.adlbutton {
+	background:linear-gradient(to bottom, #5c33ff 5%, #8339e3 100%);
+	background-color:#5c33ff;
+	border-radius:7px;
+	border:1px solid #2c3333;
+	/* display:inline-block; */
+  position: relative;
+
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:5px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #8b1ab8;
+  margin: 2vh 1vw;
+}
+.adlbutton:hover {
+	background:linear-gradient(to bottom, #8339e3 5%, #5c33ff 100%);
+	background-color:#8339e3;
+}
+.adlbutton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.container-fluid{
+  padding: 3% 15% 0;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  font-size: 3.5vw;
+  height: 6vw;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.title-img{
+  max-width: 50%;
+  transform: rotate(25deg);
+  position: static;
+  /* z-index: 0; */
+  padding-left: 5%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #533483;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #A460ED;
+}
+
+.test-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.ctaheading{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+.article2{
+  /*  leverage cascade for cross-browser gradients  */
+  background: radial-gradient(
+    hsl(100 100% 60%),
+    hsl(200 100% 60%)
+  ) scroll;
+  background: conic-gradient(
+    hsl(100 100% 60%),
+    hsl(200 100% 60%),
+    hsl(100 100% 60%)
+  ) scroll;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.article3 {
+  background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%),
+    hsl(204 100% 59%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
