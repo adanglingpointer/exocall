@@ -93,8 +93,10 @@ p{
 
 .top-cloud{
   position: fixed;
-  right: 400px;
-  top: 50px;
+  /*right: 400px;*/
+  right: 35%;
+  /*top: 50px;*/
+  top: 30%;
   width: 8vw;
   height: 8vw;
   opacity: 70%;
