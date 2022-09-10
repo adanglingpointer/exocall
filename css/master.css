@@ -4,6 +4,11 @@
   }
 } */
 
+.navbar-toggler{
+position: relative;
+z-index: -1
+}
+
 h1{
   font-family: 'Kanit', sans-serif;
   font-weight: 400;
