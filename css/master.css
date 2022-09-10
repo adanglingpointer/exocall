@@ -223,6 +223,8 @@ animation-iteration-count: infinite;
   color: purple;
   font-weight: 700;
   box-shadow: 1;
+position: relative;
+z-index: -1
 }
 
 .dlbutton{
