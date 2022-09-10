@@ -92,7 +92,7 @@ p{
 }
 
 .top-cloud{
-  position: absolute;
+  position: fixed;
   right: 400px;
   top: 50px;
   width: 8vw;
@@ -105,7 +105,7 @@ animation-iteration-count: infinite;
 }
 
 .bottom-cloud{
-  position: absolute;
+  position: fixed;
   left: 700px;
   bottom: 75px;
   width: 7.5vw;
@@ -118,7 +118,7 @@ animation-iteration-count: infinite;
 }
 
 .third-cloud{
-  position: absolute;
+  position: fixed;
   left: 500px;
   bottom: 200px;
   width: 6vw;
@@ -131,7 +131,7 @@ animation-iteration-count: infinite;
 }
 
 .spaceship{
-  position: absolute;
+  position: fixed;
   right: 800px;
   top: 200px;
   width: 6vw;
@@ -143,7 +143,7 @@ animation-iteration-count: infinite;
 }
 
 .spaceship2{
-  position: absolute;
+  position: fixed;
   /* left: 500px; */
   left: 30%;
   /* top: 300px; */
@@ -157,7 +157,7 @@ animation-iteration-count: infinite;
 }
 
 .star1{
-  position: absolute;
+  position: fixed;
   right: 200px;
   top: 100px;
   width: 2vw;
@@ -170,7 +170,7 @@ animation-iteration-count: infinite;
 }
 
 .star2{
-  position: absolute;
+  position: fixed;
   left: 140px;
   bottom: 80px;
   width: 2vw;
