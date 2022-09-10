@@ -4,6 +4,10 @@
   }
 } */
 
+a:link{
+color: white;
+}
+
 .navbar-toggler{
 position: relative;
 z-index: 1;
