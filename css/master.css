@@ -6,7 +6,7 @@
 
 .navbar-toggler{
 position: relative;
-z-index: 1
+z-index: 1;
 }
 
 h1{
@@ -229,7 +229,7 @@ animation-iteration-count: infinite;
   font-weight: 700;
   box-shadow: 1;
 position: relative;
-z-index: -1
+z-index: 1;
 }
 
 .dlbutton{
